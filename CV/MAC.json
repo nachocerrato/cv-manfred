@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
-    "language": "ES",
+    "language": "EN",
     "MACVersion": "0.5"
   },
   "aboutMe": {
@@ -268,12 +268,12 @@
     "languages": [
       {
         "name": "EN",
-        "fullName": "English",
+        "fullName": "Inglés",
         "level": "Professional working proficiency"
       },
       {
         "name": "ES",
-        "fullName": "Spanish",
+        "fullName": "Español",
         "level": "Native or bilingual proficiency"
       }
     ],
@@ -346,6 +346,23 @@
         ]
       },
       {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Power Platform App Maker Associate",
+        "startDate": "2023-02-01",
+        "institution": {
+          "name": "Microsoft",
+          "URL": "https://www.credly.com/badges/e7a778b5-0e88-44e2-b6d8-70a88144519f"
+        },
+        "finishDate": "2025-02-01",
+        "linkedCompetences": [
+          {
+            "name": "Azure",
+            "type": "technology"
+          }
+        ]
+      },
+      {
         "studyType": "officialDegree",
         "degreeAchieved": true,
         "name": "Web Application Development",
@@ -380,43 +397,6 @@
             "type": "technology"
           }
         ]
-      },
-      {
-        "studyType": "certification",
-        "degreeAchieved": true,
-        "name": "Power Platform App Maker Associate",
-        "startDate": "2023-02-01",
-        "institution": {
-          "name": "Microsoft",
-          "URL": "https://www.credly.com/badges/e7a778b5-0e88-44e2-b6d8-70a88144519f"
-        },
-        "finishDate": "2025-02-01",
-        "linkedCompetences": [
-          {
-            "name": "Azure",
-            "type": "technology"
-          }
-        ]
-      }
-    ],
-    "softSkills": [
-      {
-        "skill": {
-          "name": "Continuous Learning",
-          "type": "practice"
-        }
-      },
-      {
-        "skill": {
-          "name": "Emotional Intelligence",
-          "type": "practice"
-        }
-      },
-      {
-        "skill": {
-          "name": "Teamwork",
-          "type": "practice"
-        }
       }
     ]
   },
@@ -502,10 +482,7 @@
         "Full-stack Developer"
       ]
     },
-    "status": "searchingActively",
-    "requirements": {
-      "contractTypes": []
-    }
+    "status": "searchingActively"
   },
   "manfredSpecificData": {
     "mainStackTechs": [
