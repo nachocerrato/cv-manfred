@@ -247,7 +247,11 @@
       },
       {
         "organization": {
-          "name": "Atlantic International Technology, S.L."
+          "name": "Atlantic International Technology, S.L.",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/297970f8-9d79-45b5-b0a2-67aa2cfe5dda_microsoftteams-image.png",
+            "alt": "MicrosoftTeams-image-1.png"
+          }
         },
         "roles": [
           {
