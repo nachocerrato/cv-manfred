@@ -1,0 +1,544 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
+  "settings": {
+    "language": "ES",
+    "MACVersion": "0.5"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Nacho",
+      "surnames": "Cerrato",
+      "title": "Desarrollador .NET",
+      "description": "Desarrollador en fase beta. Entusiasmado por aprender de mis compañeros y superiores, tratando de ser todo lo proactivo que puedo desde mi posición e ilusionado por seguir desarrollándome como profesional en este sector. Con experiencia en proyectos internacionales, manejo de C#, .NET Core, SQL Server y Azure, y una actitud positiva ante los retos, disfruto trabajando en equipos multiculturales y aplicando metodologías ágiles. Actualmente, participo en la modernización de aplicaciones utilizando arquitecturas avanzadas para lograr soluciones eficientes y escalables.",
+      "avatar": {
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/02/07/f6091fef-b9f9-4632-8eb0-d0e27de0123e_1636995577030.jpg",
+        "alt": "1636995577030.jpg"
+      },
+      "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJkWK-FBFsEg0RSFb-HGIY8DQ)",
+        "country": "España",
+        "region": "Andalucía",
+        "municipality": "Sevilla"
+      }
+    },
+    "recommendations": [
+      {
+        "title": "ABC: Always Be Coding",
+        "type": "reading",
+        "URL": "https://medium.com/always-be-coding/d5f8051afce2",
+        "authors": [
+          {
+            "name": "David",
+            "surnames": "Byttow",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Clean Code",
+        "type": "reading",
+        "URL": "https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
+        "authors": [
+          {
+            "name": "Robert C.",
+            "surnames": "Martin",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Coding Interview University",
+        "type": "reading",
+        "URL": "https://github.com/jwasham/coding-interview-university/tree/main",
+        "authors": [
+          {
+            "name": "kiwib0y",
+            "surnames": "and others",
+            "title": "Author"
+          }
+        ]
+      }
+    ],
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/nacho-cerrato/"
+      },
+      {
+        "type": "twitter",
+        "URL": "https://twitter.com/NachoCerrato"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Eqtic",
+          "URL": "https://eqtic.net/"
+        },
+        "roles": [
+          {
+            "name": "Software Developer",
+            "startDate": "2024-03-01",
+            "challenges": [
+              {
+                "description": "Actualmente, estoy involucrado en múltiples proyectos desarrollados con diversas versiones de .NET y gestionados en Azure Devops. Principalmente, estoy en un proyecto consistente en la modernización de una aplicación que originalmente funcionaba con ASP.NET Web Forms y estaba dividida en varios proyectos, lo que la hacía bastante caótica. El proyecto está siendo un desarrollo desde cero utilizando Onion Architecture, siguiendo el patrón MVC con .NET 8 y Razor Pages."
+              }
+            ],
+            "competences": [
+              {
+                "name": ".NET",
+                "type": "technology"
+              },
+              {
+                "name": ".Net Core",
+                "type": "technology"
+              },
+              {
+                "name": "Azure",
+                "type": "technology"
+              },
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Entity",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "LinQ",
+                "type": "technology"
+              },
+              {
+                "name": "Razor",
+                "type": "technology"
+              },
+              {
+                "name": "SQLServer",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Deloitte"
+        },
+        "roles": [
+          {
+            "name": "Microsoft .NET & Azure Developer",
+            "startDate": "2022-02-01",
+            "finishDate": "2024-03-01",
+            "challenges": [
+              {
+                "description": "Actualmente en un proyecto internacional junto a Deloitte Alemania como desarrollador para Mercedes Benz. El proyecto consistía inicialmente en la creación de una aplicación web diseñada para optimizar y automatizar las configuraciones de vehículos de stock, utilizando métodos estadísticos para generar recomendaciones de configuraciones que se alineasen con las necesidades reales de los clientes en base a indicadores económicos, demográficos o coyunturales. Posteriormente, trabajamos en la migración de esta aplicación para hacerla más escalable y sostenible, adaptándola a una estructura de microservicios.\n\n**Responsabilidades:**\n\n- Desarrollo y mantenimiento de APIs para la comunicación eficiente entre diferentes componentes del sistema.\n- Pruebas unitarias y alguna de integración.\n- Contribuir a la resolución de bugs y mejoras funcionales.\n- Refactorizar para mejorar la calidad del código y facilitar el mantenimiento a largo plazo.\n\n**Estructura de las soluciones** \nHemos utilizado el patrón de diseño hexagonal, separando y estructurando las soluciones en diferentes capas como Api, Domain o Infraestructure.\n\n**Tecnologías y herramientas utilizadas:**\n\n- **Entorno de Desarrollo**: Visual Studio 2022.\n- **Lenguajes de Programación:** Principalmente C# y SQL Server.\n- **Framework:** .NET 6.0 y alguna vez .NET 4.7.2 o NET 8.\n- **Pruebas:** Xunit o Junit.\n- **Persistencia de Datos:** Entity Framework junto con LINQ, específicamente en Database First.\n- **Gestión de Versiones:** Utilizamos Git para el control de versiones, gestionado a través de Azure DevOps.\n- **Gestión de Dependencias y Paquetes:** NuGet para la administración eficiente de paquetes, incorporando bibliotecas externas y aprovechando el principio de inyección de dependencias\n- **Azure Services utilizados:**\n    - **Azure DevOps:** Para la gestión integral del proyecto.\n    - **Máquinas Virtuales de Azure**: Ocasionalmente trabajamos en entornos de máquinas virtuales en Azure para ciertas tareas.\n    - **Storage Account**: Para el almacenamiento de datos y archivos.\n    - **Azure Key Vault**: Para la gestión segura de secretos y claves.\n    - **Blob Service**: Para necesidades específicas de datos no estructurados.\n    - **Azure Queue Storage:** Para ejecutar workers en base a mensajes en cola.\n    - **WebJobs en Azure:** Para ejecutar workers, también, que gestionaban la ingestión de datos o diferentes procesos.\n\n**Metodología de trabajo:** Agile, realizando Sprints cada 3 semanas implementando además integración y despliegue continuo."
+              }
+            ],
+            "competences": [
+              {
+                "name": ".NET",
+                "type": "technology"
+              },
+              {
+                "name": ".Net Core",
+                "type": "technology"
+              },
+              {
+                "name": "Azure",
+                "type": "technology"
+              },
+              {
+                "name": "C#",
+                "type": "technology"
+              },
+              {
+                "name": "Entity",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "JUnit",
+                "type": "technology"
+              },
+              {
+                "name": "LinQ",
+                "type": "technology"
+              },
+              {
+                "name": "SQLServer",
+                "type": "technology"
+              },
+              {
+                "name": "Visual Studio",
+                "type": "technology"
+              },
+              {
+                "name": "WebApi",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Cuonda Podcast"
+        },
+        "roles": [
+          {
+            "name": "Podcaster",
+            "startDate": "2021-08-01",
+            "finishDate": "2022-05-31",
+            "challenges": [
+              {
+                "description": "Producción, escritura, grabación y edición de un podcast para la plataforma «Cuonda» en el que repaso a diario lo que ocurre en la industria de los videojuegos a través de capítulos breves y dinámicos. Sintetizo toda la información que se publica día a día sobre este sector para que el oyente pueda estar al tanto de lo que ocurre en menos de 10 minutos."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Lúmina Energía"
+        },
+        "roles": [
+          {
+            "name": "Administrativo contable",
+            "startDate": "2021-01-01",
+            "finishDate": "2021-08-31",
+            "challenges": [
+              {
+                "description": "- Elaboración del Presupuesto de Tesorería y de Ingresos y Gastos para el año 2021.\n- Conciliación bancaria.\n- Emisión y control de facturas.\n- Control y gestión del archivo contable.\n- Contabilización y gestión de remesas.\n- Gestión del pago a proveedores."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Comvive"
+        },
+        "roles": [
+          {
+            "name": "Administrador de sistemas",
+            "startDate": "2016-01-01",
+            "finishDate": "2017-06-30",
+            "challenges": [
+              {
+                "description": "Mis tareas se dividían entre operación, gestión y mantenimiento de aplicaciones web y servidores; resolución de incidencias y asistencia telefónica."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Atlantic International Technology, S.L."
+        },
+        "roles": [
+          {
+            "name": "Empleado en prácticas",
+            "startDate": "2015-03-01",
+            "finishDate": "2015-06-30",
+            "challenges": [
+              {
+                "description": "Estas prácticas fueron complementarias a la formación de Técnico Superior en Desarrollo de Aplicaciones Web, por un total de 370 horas."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": ".NET",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": ".Net Core",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "API",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Azure",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "C#",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Git",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JUnit",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQLServer",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Azure Developer Associate",
+        "startDate": "2023-03-01",
+        "institution": {
+          "name": "Microsoft",
+          "URL": "https://www.credly.com/badges/44b2cb60-e5a5-443d-9237-0068c7707981"
+        },
+        "finishDate": "2025-03-01",
+        "linkedCompetences": [
+          {
+            "name": "Azure",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Desarrollo de Aplicaciones Web",
+        "startDate": "2013-09-01",
+        "institution": {
+          "name": "IES Hermanos Machado"
+        },
+        "finishDate": "2015-07-01",
+        "linkedCompetences": [
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "Java",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "SQL",
+            "type": "technology"
+          },
+          {
+            "name": "jQuery",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Power Platform App Maker Associate",
+        "startDate": "2023-02-01",
+        "institution": {
+          "name": "Microsoft",
+          "URL": "https://www.credly.com/badges/e7a778b5-0e88-44e2-b6d8-70a88144519f"
+        },
+        "finishDate": "2025-02-01",
+        "linkedCompetences": [
+          {
+            "name": "Azure",
+            "type": "technology"
+          }
+        ]
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Aprendizaje Continuo",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Inteligencia emocional",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Trabajo en equipo",
+          "type": "practice"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "URL": "https://www.linkedin.com/in/nacho-cerrato/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://twitter.com/NachoCerrato",
+          "type": "twitter"
+        }
+      ],
+      "contactMails": [
+        "igncerrui@gmail.com"
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": ".NET",
+          "type": "technology"
+        },
+        {
+          "name": "Azure",
+          "type": "technology"
+        },
+        {
+          "name": "C#",
+          "type": "technology"
+        },
+        {
+          "name": "CSS",
+          "type": "technology"
+        },
+        {
+          "name": "Entity",
+          "type": "technology"
+        },
+        {
+          "name": "HTML",
+          "type": "technology"
+        },
+        {
+          "name": "JavaScript",
+          "type": "technology"
+        },
+        {
+          "name": "LinQ",
+          "type": "technology"
+        },
+        {
+          "name": "Python",
+          "type": "technology"
+        },
+        {
+          "name": "React",
+          "type": "technology"
+        },
+        {
+          "name": "SQLServer",
+          "type": "technology"
+        },
+        {
+          "name": "Swift",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "PHP",
+          "type": "technology"
+        },
+        {
+          "name": "PL/SQL",
+          "type": "technology"
+        }
+      ],
+      "preferredRoles": [
+        "Backend Developer",
+        "Full-stack Developer"
+      ]
+    },
+    "status": "searchingActively"
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": ".Net Core",
+        "type": "technology"
+      },
+      {
+        "name": "API",
+        "type": "technology"
+      },
+      {
+        "name": "Azure",
+        "type": "technology"
+      },
+      {
+        "name": "C#",
+        "type": "technology"
+      },
+      {
+        "name": "SQLServer",
+        "type": "technology"
+      }
+    ],
+    "desiredJobDescription": "Mi trabajo soñado actualmente es uno que me permita crecer como desarrollador por encima de todo lo demás. Estoy en un punto en el que debo priorizar proyectos interesantes que me aporten experiencia y conocimiento, y que de verdad se tengan en cuenta las buenas prácticas. Además valoro muchísimo que el ambiente laboral sea sano, que propicie el aprendizaje colectivo y el compañerismo.\n",
+    "goodPractices": "Tuve una enorme suerte con el proyecto en el que me he estrené como desarrollador. Me permitió ir familiarizándome y siguiendo buenas prácticas como por ejemplo:\n\n+ Arquitectura en capas\n+ Desarrollo y mantenimiento de APIs documentándolas\n+ Pruebas unitarias y de integración\n+ Buenas prácticas en el control de versiones con Git\n+ Metodologías ágiles y CI/CD\n\nPor otro lado, trato siempre de escribir el código de la forma más limpia y acorde a los principios SOLID que conozco e intento, siempre que puedo, refactorizar tanto mi código como el de compañeros con menos experiencia para dotar a las soluciones de mayor robustez y sostenibilidad. \n\nIndependientemente de esto, trato de seguir aprendiendo y formándome como puedo en relación a las buenas prácticas de desarrollo. Ya me he bebido varios cursos al respecto y lo último ha sido el famoso -y genial- \"Clean Code\" del tío Bob, el cuál he tratado de ir poniendo en práctica en mi día a día desde que empecé la primera página.",
+    "bookmarks": [
+      {
+        "name": "ABC: Always Be Coding"
+      },
+      {
+        "name": "Clean Code"
+      },
+      {
+        "name": "Coding Interview University"
+      }
+    ]
+  }
+}
