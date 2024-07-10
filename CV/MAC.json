@@ -213,7 +213,11 @@
       },
       {
         "organization": {
-          "name": "Lúmina Energía"
+          "name": "Lúmina Energía",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/56fe5cf0-7da9-42cf-9638-2fb73286e2e3_lumi.png",
+            "alt": "lumi.png"
+          }
         },
         "roles": [
           {
