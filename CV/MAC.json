@@ -75,6 +75,10 @@
       {
         "organization": {
           "name": "Eqtic",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/0f2f0cfd-417b-411a-8a4d-2a1dc09abe4a_logo.jpg",
+            "alt": "logo.jpg"
+          },
           "URL": "https://eqtic.net/"
         },
         "roles": [
