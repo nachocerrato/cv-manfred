@@ -8,8 +8,8 @@
     "profile": {
       "name": "Nacho",
       "surnames": "Cerrato",
-      "title": "Desarrollador .NET",
-      "description": "Desarrollador en fase beta. Entusiasmado por aprender de mis compañeros y superiores, tratando de ser todo lo proactivo que puedo desde mi posición e ilusionado por seguir desarrollándome como profesional en este sector. Con experiencia en proyectos internacionales, manejo de C#, .NET Core, SQL Server y Azure, y una actitud positiva ante los retos, disfruto trabajando en equipos multiculturales y aplicando metodologías ágiles. Actualmente, participo en la modernización de aplicaciones utilizando arquitecturas avanzadas para lograr soluciones eficientes y escalables.",
+      "title": ".NET Developer",
+      "description": "Developer in beta phase. Excited to learn from my colleagues and superiors, trying to be as proactive as I can from my position, and eager to continue developing myself as a professional in this sector. With experience in international projects, handling C#, .NET Core, SQL Server, and Azure, and a positive attitude towards challenges, I enjoy working in multicultural teams and applying agile methodologies. Currently, I am involved in the modernization of applications using advanced architectures to achieve efficient and scalable solutions.",
       "avatar": {
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/02/07/f6091fef-b9f9-4632-8eb0-d0e27de0123e_1636995577030.jpg",
         "alt": "1636995577030.jpg"
@@ -83,7 +83,7 @@
             "startDate": "2024-03-01",
             "challenges": [
               {
-                "description": "Actualmente, estoy involucrado en múltiples proyectos desarrollados con diversas versiones de .NET y gestionados en Azure Devops. Principalmente, estoy en un proyecto consistente en la modernización de una aplicación que originalmente funcionaba con ASP.NET Web Forms y estaba dividida en varios proyectos, lo que la hacía bastante caótica. El proyecto está siendo un desarrollo desde cero utilizando Onion Architecture, siguiendo el patrón MVC con .NET 8 y Razor Pages."
+                "description": "Currently, I am involved in multiple projects developed with various versions of .NET and managed in Azure DevOps. Mainly, I am in a project consisting of the modernization of an application that originally ran on ASP.NET Web Forms and was divided into several projects, making it quite chaotic. The project is a development from scratch using Onion Architecture, following the MVC pattern with .NET 8 and Razor Pages."
               }
             ],
             "competences": [
@@ -142,7 +142,7 @@
             "finishDate": "2024-03-01",
             "challenges": [
               {
-                "description": "Desarrollo Backend en un proyecto internacional junto a Deloitte Alemania como desarrollador para Mercedes Benz. El proyecto consistía inicialmente en la creación de una aplicación web diseñada para optimizar y automatizar las configuraciones de vehículos de stock, utilizando métodos estadísticos para generar recomendaciones de configuraciones que se alineasen con las necesidades reales de los clientes en base a indicadores económicos, demográficos o coyunturales. Posteriormente, trabajamos en la migración de esta aplicación para hacerla más escalable y sostenible, adaptándola a una estructura de microservicios.\n\n**Responsabilidades:**\n\n- Desarrollo y mantenimiento de APIs para la comunicación eficiente entre diferentes componentes del sistema.\n- Pruebas unitarias y alguna de integración.\n- Contribuir a la resolución de bugs y mejoras funcionales.\n- Refactorizar para mejorar la calidad del código y facilitar el mantenimiento a largo plazo.\n\n**Estructura de las soluciones** \nHemos utilizado el patrón de diseño hexagonal, separando y estructurando las soluciones en diferentes capas como Api, Domain o Infraestructure.\n\n**Tecnologías y herramientas utilizadas:**\n\n- **Entorno de Desarrollo**: Visual Studio 2022.\n- **Lenguajes de Programación:** Principalmente C# y SQL Server.\n- **Framework:** .NET 6.0 y alguna vez .NET 4.7.2 o NET 8.\n- **Pruebas:** Xunit o Junit.\n- **Persistencia de Datos:** Entity Framework junto con LINQ, específicamente en Database First.\n- **Gestión de Versiones:** Utilizamos Git para el control de versiones, gestionado a través de Azure DevOps.\n- **Gestión de Dependencias y Paquetes:** NuGet para la administración eficiente de paquetes, incorporando bibliotecas externas y aprovechando el principio de inyección de dependencias\n- **Azure Services utilizados:**\n    - **Azure DevOps:** Para la gestión integral del proyecto.\n    - **Máquinas Virtuales de Azure**: Ocasionalmente trabajamos en entornos de máquinas virtuales en Azure para ciertas tareas.\n    - **Storage Account**: Para el almacenamiento de datos y archivos.\n    - **Azure Key Vault**: Para la gestión segura de secretos y claves.\n    - **Blob Service**: Para necesidades específicas de datos no estructurados.\n    - **Azure Queue Storage:** Para ejecutar workers en base a mensajes en cola.\n    - **WebJobs en Azure:** Para ejecutar workers, también, que gestionaban la ingestión de datos o diferentes procesos.\n\n**Metodología de trabajo:** Agile, realizando Sprints cada 3 semanas implementando además integración y despliegue continuo."
+                "description": "Backend on an international project with Deloitte Germany as a developer for Mercedes Benz. The project initially consisted of creating a web application designed to optimize and automate stock vehicle configurations, using statistical methods to generate configuration recommendations that aligned with the real needs of customers based on economic, demographic, or situational indicators. Subsequently, we worked on migrating this application to make it more scalable and sustainable, adapting it to a microservices structure.\n\n**Responsibilities:**\n\n- Development and maintenance of APIs for efficient communication between different system components.\n- Unit testing and some integration testing.\n- Contributing to bug fixing and functional improvements.\n- Refactoring to improve code quality and facilitate long-term maintenance.\n\n**Solution Structure**\nWe used the hexagonal design pattern, separating and structuring solutions into different layers such as Api, Domain, or Infrastructure.\n\n**Technologies and tools used:**\n\n- **Development Environment**: Visual Studio 2022.\n- **Programming Languages:** Mainly C# and SQL Server.\n- **Framework:** .NET 6.0 and sometimes .NET 4.7.2 or .NET 8.\n- **Testing:** Xunit or Junit.\n- **Data Persistence:** Entity Framework along with LINQ, specifically in Database First.\n- **Version Control:** We used Git for version control, managed through Azure DevOps.\n- **Dependency and Package Management:** NuGet for efficient package management, incorporating external libraries and leveraging dependency injection principle.\n- **Azure Services used:**\n    - **Azure DevOps:** For comprehensive project management.\n    - **Azure Virtual Machines:** Occasionally working in Azure virtual machine environments for certain tasks.\n    - **Storage Account:** For data and file storage.\n    - **Azure Key Vault:** For secure management of secrets and keys.\n    - **Blob Service:** For specific needs of unstructured data.\n    - **Azure Queue Storage:** To execute workers based on queue messages.\n    - **Azure WebJobs:** To run workers that managed data ingestion or different processes.\n\n**Work Methodology:** Agile, conducting Sprints every 3 weeks and also implementing continuous integration and deployment."
               }
             ],
             "competences": [
@@ -205,7 +205,7 @@
             "finishDate": "2022-05-31",
             "challenges": [
               {
-                "description": "Producción, escritura, grabación y edición de un podcast para la plataforma «Cuonda» en el que repaso a diario lo que ocurre en la industria de los videojuegos a través de capítulos breves y dinámicos. Sintetizo toda la información que se publica día a día sobre este sector para que el oyente pueda estar al tanto de lo que ocurre en menos de 10 minutos."
+                "description": "Production, writing, recording, and editing of a podcast for the «Cuonda» platform in which I review daily what is happening in the video game industry through short and dynamic episodes. I synthesize all the information published daily about this sector so that the listener can stay informed in less than 10 minutes."
               }
             ]
           }
@@ -217,12 +217,12 @@
         },
         "roles": [
           {
-            "name": "Administrativo contable",
+            "name": "Administrative Accountant",
             "startDate": "2021-01-01",
             "finishDate": "2021-08-31",
             "challenges": [
               {
-                "description": "- Elaboración del Presupuesto de Tesorería y de Ingresos y Gastos para el año 2021.\n- Conciliación bancaria.\n- Emisión y control de facturas.\n- Control y gestión del archivo contable.\n- Contabilización y gestión de remesas.\n- Gestión del pago a proveedores."
+                "description": "- Preparation of the Cash Flow Budget and Income and Expenditure Budget for the year 2021.\n- Bank reconciliation.\n- Issuance and control of invoices.\n- Control and management of the accounting archive.\n- Accounting and management of remittances.\n- Management of supplier payments."
               }
             ]
           }
@@ -234,12 +234,12 @@
         },
         "roles": [
           {
-            "name": "Administrador de sistemas",
+            "name": "System Administrator",
             "startDate": "2016-01-01",
             "finishDate": "2017-06-30",
             "challenges": [
               {
-                "description": "Mis tareas se dividían entre operación, gestión y mantenimiento de aplicaciones web y servidores; resolución de incidencias y asistencia telefónica."
+                "description": "My tasks were divided between operation, management, and maintenance of web applications and servers; incident resolution and phone support."
               }
             ]
           }
@@ -251,12 +251,12 @@
         },
         "roles": [
           {
-            "name": "Empleado en prácticas",
+            "name": "Intern",
             "startDate": "2015-03-01",
             "finishDate": "2015-06-30",
             "challenges": [
               {
-                "description": "Estas prácticas fueron complementarias a la formación de Técnico Superior en Desarrollo de Aplicaciones Web, por un total de 370 horas."
+                "description": "These internships were complementary to the training of Higher Technician in Web Application Development, for a total of 370 hours."
               }
             ]
           }
@@ -268,12 +268,12 @@
     "languages": [
       {
         "name": "EN",
-        "fullName": "Inglés",
+        "fullName": "English",
         "level": "Professional working proficiency"
       },
       {
         "name": "ES",
-        "fullName": "Español",
+        "fullName": "Spanish",
         "level": "Native or bilingual proficiency"
       }
     ],
@@ -348,7 +348,7 @@
       {
         "studyType": "officialDegree",
         "degreeAchieved": true,
-        "name": "Desarrollo de Aplicaciones Web",
+        "name": "Web Application Development",
         "startDate": "2013-09-01",
         "institution": {
           "name": "IES Hermanos Machado"
@@ -402,19 +402,19 @@
     "softSkills": [
       {
         "skill": {
-          "name": "Aprendizaje Continuo",
+          "name": "Continuous Learning",
           "type": "practice"
         }
       },
       {
         "skill": {
-          "name": "Inteligencia emocional",
+          "name": "Emotional Intelligence",
           "type": "practice"
         }
       },
       {
         "skill": {
-          "name": "Trabajo en equipo",
+          "name": "Teamwork",
           "type": "practice"
         }
       }
@@ -502,7 +502,10 @@
         "Full-stack Developer"
       ]
     },
-    "status": "searchingActively"
+    "status": "searchingActively",
+    "requirements": {
+      "contractTypes": []
+    }
   },
   "manfredSpecificData": {
     "mainStackTechs": [
@@ -527,8 +530,8 @@
         "type": "technology"
       }
     ],
-    "desiredJobDescription": "Mi trabajo soñado actualmente es uno que me permita crecer como desarrollador por encima de todo lo demás. Estoy en un punto en el que debo priorizar proyectos interesantes que me aporten experiencia y conocimiento, y que de verdad se tengan en cuenta las buenas prácticas. Además valoro muchísimo que el ambiente laboral sea sano, que propicie el aprendizaje colectivo y el compañerismo.\n",
-    "goodPractices": "Tuve una enorme suerte con el proyecto en el que me he estrené como desarrollador. Me permitió ir familiarizándome y siguiendo buenas prácticas como por ejemplo:\n\n+ Arquitectura en capas\n+ Desarrollo y mantenimiento de APIs documentándolas\n+ Pruebas unitarias y de integración\n+ Buenas prácticas en el control de versiones con Git\n+ Metodologías ágiles y CI/CD\n\nPor otro lado, trato siempre de escribir el código de la forma más limpia y acorde a los principios SOLID que conozco e intento, siempre que puedo, refactorizar tanto mi código como el de compañeros con menos experiencia para dotar a las soluciones de mayor robustez y sostenibilidad. \n\nIndependientemente de esto, trato de seguir aprendiendo y formándome como puedo en relación a las buenas prácticas de desarrollo. Ya me he bebido varios cursos al respecto y lo último ha sido el famoso -y genial- \"Clean Code\" del tío Bob, el cuál he tratado de ir poniendo en práctica en mi día a día desde que empecé la primera página.",
+    "desiredJobDescription": "My dream job currently is one that allows me to grow as a developer above all else. I am at a point where I need to prioritize interesting projects that provide me with experience and knowledge, and where best practices are genuinely taken into account. I also highly value a healthy work environment that fosters collective learning and teamwork.",
+    "goodPractices": "I was very fortunate with the project where I made my debut as a developer. It allowed me to familiarize myself and follow good practices such as:\n\n+ Layered Architecture\n+ Development and maintenance of APIs documenting them\n+ Unit and integration testing\n+ Good version control practices with Git\n+ Agile methodologies and CI/CD\n\nOn the other hand, I always try to write code in the cleanest way possible and according to the SOLID principles that I know, and I try, whenever I can, to refactor both my code and that of less experienced colleagues to make the solutions more robust and sustainable.\n\nRegardless of this, I always try to keep learning and training myself as I can in relation to good development practices. I have already completed several courses on this subject and the latest has been the famous - and excellent - \"Clean Code\" by Uncle Bob, which I have been trying to put into practice in my day-to-day since I started the first page.",
     "bookmarks": [
       {
         "name": "ABC: Always Be Coding"
