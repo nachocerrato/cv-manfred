@@ -196,7 +196,11 @@
       },
       {
         "organization": {
-          "name": "Cuonda Podcast"
+          "name": "Cuonda Podcast",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/77a24508-a9b6-4132-a445-802333f60f80_cuodnda.jpg",
+            "alt": "cuodnda.jpg"
+          }
         },
         "roles": [
           {
