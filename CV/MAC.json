@@ -230,7 +230,11 @@
       },
       {
         "organization": {
-          "name": "Comvive"
+          "name": "Comvive",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/853b4e1b-e2b7-4731-9f31-c1eedb30f72c_comvive.png",
+            "alt": "comvive.png"
+          }
         },
         "roles": [
           {
