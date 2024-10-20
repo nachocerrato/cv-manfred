@@ -167,7 +167,31 @@
             ],
             "competences": [
               {
+                "name": ".Net Core",
+                "type": "technology"
+              },
+              {
+                "name": "API",
+                "type": "technology"
+              },
+              {
+                "name": "Azure",
+                "type": "technology"
+              },
+              {
+                "name": "Azure DevOps",
+                "type": "technology"
+              },
+              {
+                "name": "Azure Functions",
+                "type": "technology"
+              },
+              {
                 "name": "C#",
+                "type": "technology"
+              },
+              {
+                "name": "Entity",
                 "type": "technology"
               },
               {
@@ -175,7 +199,23 @@
                 "type": "technology"
               },
               {
+                "name": "JUnit",
+                "type": "technology"
+              },
+              {
                 "name": "LinQ",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "SQLServer",
+                "type": "technology"
+              },
+              {
+                "name": "WebApi",
                 "type": "technology"
               }
             ]
