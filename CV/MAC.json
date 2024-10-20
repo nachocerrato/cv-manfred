@@ -414,7 +414,10 @@
         "Full-stack Developer"
       ]
     },
-    "status": "searchingActively"
+    "status": "searchingActively",
+    "requirements": {
+      "contractTypes": []
+    }
   },
   "manfredSpecificData": {
     "mainStackTechs": [
