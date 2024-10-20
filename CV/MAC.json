@@ -172,6 +172,10 @@
       {
         "organization": {
           "name": "Cuonda Podcast",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/10/20/8e9bd2ee-1e1b-493f-a172-9a65f3495958_ucuhj_s2_400x400.jpg",
+            "alt": "UcuHJ_s2_400x400.jpg"
+          },
           "URL": "https://cuonda.com/codec"
         },
         "roles": [
