@@ -67,91 +67,73 @@
       {
         "type": "twitter",
         "URL": "https://twitter.com/NachoCerrato"
+      },
+      {
+        "type": "other",
+        "URL": "https://letterboxd.com/nachocerrato/"
+      },
+      {
+        "type": "other",
+        "URL": "https://www.goodreads.com/user/show/36915551-nacho-cerrato"
       }
     ]
   },
   "experience": {
     "jobs": [
       {
-  "organization": {
-    "name": "Eqtic",
-    "image": {
-      "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/0f2f0cfd-417b-411a-8a4d-2a1dc09abe4a_logo.jpg",
-      "alt": "logo.jpg"
-    }
-  },
-  "roles": [
-    {
-      "name": "Full Stack Developer",
-      "startDate": "2024-03-01",
-      "challenges": [
-        {
-"description": "Currently working on multiple projects using various versions of .NET (primarily .NET 8), with Azure mainly used for project management through Azure DevOps. My primary focus is the modernization of legacy systems. I am heavily involved in a key project developing a new .NET 8 solution, replacing an outdated ASP.NET Web Forms application. The project was started from scratch, using Onion Architecture and Razor Pages to create a scalable and maintainable system, following Clean Architecture principles and SOLID design patterns.\n\n**Responsibilities**\n\n- Developed new modules within the project, ensuring a clear separation of concerns by isolating business logic in the Domain layer and using dependency injection to enhance testability and flexibility.\n- Applied the Specification Pattern to encapsulate business rules for querying data, improving code maintainability and reducing duplication.\n- Integrated Entity Framework Core using a Code-First approach, leveraging Fluent API for detailed configuration of entity relationships and database schema definitions.\n- Created and modified views and pages using HTML, CSS, JavaScript, and jQuery, working with ViewModels and integrating them with controllers via Axios to manage data flow and ensure proper front-end rendering."
-
-        }
-      ],
-      "competences": [
-        {
-          "name": "C#",
-          "type": "technology"
+        "organization": {
+          "name": "Eqtic",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/0f2f0cfd-417b-411a-8a4d-2a1dc09abe4a_logo.jpg",
+            "alt": "logo.jpg"
+          }
         },
-        {
-          "name": ".NET 8",
-          "type": "technology"
-        },
-        {
-          "name": "ASP.NET Core",
-          "type": "technology"
-        },
-        {
-          "name": "Razor Pages",
-          "type": "technology"
-        },
-        {
-          "name": "Entity Framework Core",
-          "type": "technology"
-        },
-        {
-          "name": "jQuery",
-          "type": "technology"
-        },
-        {
-          "name": "AutoMapper",
-          "type": "technology"
-        },
-        {
-          "name": "SQL Server",
-          "type": "technology"
-        },
-        {
-          "name": "HTML",
-          "type": "technology"
-        },
-        {
-          "name": "CSS",
-          "type": "technology"
-        },
-        {
-          "name": "JavaScript",
-          "type": "technology"
-        },
-        {
-          "name": "Axios",
-          "type": "technology"
-        },
-        {
-          "name": "Azure DevOps",
-          "type": "technology"
-        },
-        {
-          "name": "Git",
-          "type": "technology"
-        }
-      ]
-    }
-  ]
-}
-,
+        "roles": [
+          {
+            "name": "Full Stack Developer",
+            "startDate": "2024-03-01",
+            "challenges": [
+              {
+                "description": "Currently working on multiple projects using various versions of .NET (primarily .NET 8), with Azure mainly used for project management through Azure DevOps. My primary focus is the modernization of legacy systems. I am heavily involved in a key project developing a new .NET 8 solution, replacing an outdated ASP.NET Web Forms application. The project was started from scratch, using Onion Architecture and Razor Pages to create a scalable and maintainable system, following Clean Architecture principles and SOLID design patterns.\n\n**Responsibilities**\n\n- Developed new modules within the project, ensuring a clear separation of concerns by isolating business logic in the Domain layer and using dependency injection to enhance testability and flexibility.\n- Applied the Specification Pattern to encapsulate business rules for querying data, improving code maintainability and reducing duplication.\n- Integrated Entity Framework Core using a Code-First approach, leveraging Fluent API for detailed configuration of entity relationships and database schema definitions.\n- Created and modified views and pages using HTML, CSS, JavaScript, and jQuery, working with ViewModels and integrating them with controllers via Axios to manage data flow and ensure proper front-end rendering."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Axios",
+                "type": "technology"
+              },
+              {
+                "name": "Azure DevOps",
+                "type": "technology"
+              },
+              {
+                "name": "C#",
+                "type": "technology"
+              },
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
       {
         "organization": {
           "name": "Deloitte",
@@ -167,7 +149,7 @@
             "finishDate": "2024-03-01",
             "challenges": [
               {
-"description": "Developed and maintained web applications for Mercedes Benz in collaboration with Deloitte Germany. The primary focus of the project was the migration of an existing monolithic application to a microservices architecture, improving scalability, maintainability, and performance. This involved refactoring legacy systems and creating new APIs to ensure seamless communication between the new services.\n\n**Responsibilities:**\n\n- Developed and maintained REST APIs to enable efficient communication between different system components, facilitating the migration to a microservices architecture.\n- Conducted unit tests (xUnit) and integration tests to ensure code quality and functionality in critical areas of the system.\n- Actively contributed to bug fixing and the implementation of functional improvements to enhance system performance and reliability.\n- Refactored legacy code and new modules to improve code quality, enhance maintainability, and align with modern coding standards and best practices, including SOLID principles."
+                "description": "Developed and maintained web applications for Mercedes Benz in collaboration with Deloitte Germany. The primary focus of the project was the migration of an existing monolithic application to a microservices architecture, improving scalability, maintainability, and performance. This involved refactoring legacy systems and creating new APIs to ensure seamless communication between the new services.\n\n**Responsibilities:**\n\n- Developed and maintained REST APIs to enable efficient communication between different system components, facilitating the migration to a microservices architecture.\n- Conducted unit tests (xUnit) and integration tests to ensure code quality and functionality in critical areas of the system.\n- Actively contributed to bug fixing and the implementation of functional improvements to enhance system performance and reliability.\n- Refactored legacy code and new modules to improve code quality, enhance maintainability, and align with modern coding standards and best practices, including SOLID principles."
               }
             ],
             "competences": [
@@ -176,43 +158,11 @@
                 "type": "technology"
               },
               {
-                "name": ".NET 6",
-                "type": "technology"
-              },
-              {
-                "name": ".NET 4.7.2",
-                "type": "technology"
-              },
-              {
-                "name": "Microservices",
-                "type": "technology"
-              },
-              {
-                "name": "Azure Services (DevOps, Queue Storage, WebJobs, Blob Storage)",
-                "type": "technology"
-              },
-              {
-                "name": "SQL Server",
-                "type": "technology"
-              },
-              {
-                "name": "jUnit",
-                "type": "technology"
-              },
-              {
-                "name": "Entity Framework Core",
-                "type": "technology"
-              },
-              {
-                "name": "LinQ",
-                "type": "technology"
-              },
-              {
                 "name": "Git",
                 "type": "technology"
               },
               {
-                "name": "Agile",
+                "name": "LinQ",
                 "type": "technology"
               }
             ]
@@ -277,7 +227,7 @@
       },
       {
         "skill": {
-          "name": ".NET Core",
+          "name": ".Net Core",
           "type": "technology"
         }
       },
@@ -307,7 +257,7 @@
       },
       {
         "skill": {
-          "name": "SQL Server",
+          "name": "SQLServer",
           "type": "technology"
         }
       }
@@ -396,9 +346,6 @@
           "URL": "https://twitter.com/NachoCerrato",
           "type": "twitter"
         }
-      ],
-      "contactMails": [
-        "igncerrui@gmail.com"
       ]
     },
     "preferences": {
@@ -472,7 +419,7 @@
   "manfredSpecificData": {
     "mainStackTechs": [
       {
-        "name": ".NET Core",
+        "name": ".Net Core",
         "type": "technology"
       },
       {
@@ -485,10 +432,6 @@
       },
       {
         "name": "C#",
-        "type": "technology"
-      },
-      {
-        "name": "SQL Server",
         "type": "technology"
       }
     ],
