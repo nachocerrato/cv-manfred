@@ -8,8 +8,8 @@
     "profile": {
       "name": "Nacho",
       "surnames": "Cerrato",
-      "title": "Desarrollador .NET",
-      "description": "Desarrollador en fase beta. Entusiasmado por aprender de mis compañeros y superiores, tratando de ser todo lo proactivo que puedo desde mi posición e ilusionado por seguir desarrollándome como profesional en este sector. Con experiencia en proyectos internacionales, manejo de C#, .NET Core, SQL Server y Azure, y una actitud positiva ante los retos, disfruto trabajando en equipos multiculturales y aplicando metodologías ágiles. Actualmente, participo en la modernización de aplicaciones utilizando arquitecturas avanzadas para lograr soluciones eficientes y escalables.",
+      "title": ".NET Developer",
+      "description": "NET Developer with experience in both national and international projects. Specialized in modern application architecture using .NET 8, Clean Architecture, and Domain-Driven Design (DDD). Passionate about building scalable, maintainable solutions with an eagerness to continuously improve and learn from my peers. Skilled in C#, .NET Core, Entity Framework, and Azure technologies. Enjoys working in Agile environments with a focus on clean code, SOLID principles, and CI/CD pipelines.",
       "avatar": {
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/02/07/f6091fef-b9f9-4632-8eb0-d0e27de0123e_1636995577030.jpg",
         "alt": "1636995577030.jpg"
@@ -73,67 +73,85 @@
   "experience": {
     "jobs": [
       {
-        "organization": {
-          "name": "Eqtic",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/0f2f0cfd-417b-411a-8a4d-2a1dc09abe4a_logo.jpg",
-            "alt": "logo.jpg"
-          }
+  "organization": {
+    "name": "Eqtic",
+    "image": {
+      "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/0f2f0cfd-417b-411a-8a4d-2a1dc09abe4a_logo.jpg",
+      "alt": "logo.jpg"
+    }
+  },
+  "roles": [
+    {
+      "name": "Full Stack Developer",
+      "startDate": "2024-03-01",
+      "challenges": [
+        {
+"description": "Currently working on multiple projects using various versions of .NET (primarily .NET 8), with Azure mainly used for project management through Azure DevOps. My primary focus is the modernization of legacy systems. I am heavily involved in a key project developing a new .NET 8 solution, replacing an outdated ASP.NET Web Forms application. The project was started from scratch, using Onion Architecture and Razor Pages to create a scalable and maintainable system, following Clean Architecture principles and SOLID design patterns.\n\n**Responsibilities**\n\n- Developed new modules within the project, ensuring a clear separation of concerns by isolating business logic in the Domain layer and using dependency injection to enhance testability and flexibility.\n- Applied the Specification Pattern to encapsulate business rules for querying data, improving code maintainability and reducing duplication.\n- Integrated Entity Framework Core using a Code-First approach, leveraging Fluent API for detailed configuration of entity relationships and database schema definitions.\n- Created and modified views and pages using HTML, CSS, JavaScript, and jQuery, working with ViewModels and integrating them with controllers via Axios to manage data flow and ensure proper front-end rendering."
+
+        }
+      ],
+      "competences": [
+        {
+          "name": "C#".
+          "type": "technology"
         },
-        "roles": [
-          {
-            "name": "Software Developer",
-            "startDate": "2024-03-01",
-            "challenges": [
-              {
-                "description": "Actualmente, estoy involucrado en múltiples proyectos desarrollados con diversas versiones de .NET y gestionados en Azure Devops. Principalmente, estoy en un proyecto consistente en la modernización de una aplicación que originalmente funcionaba con ASP.NET Web Forms y estaba dividida en varios proyectos, lo que la hacía bastante caótica. El proyecto está siendo un desarrollo desde cero utilizando Onion Architecture, siguiendo el patrón MVC con .NET 8 y Razor Pages."
-              }
-            ],
-            "competences": [
-              {
-                "name": ".NET",
-                "type": "technology"
-              },
-              {
-                "name": ".Net Core",
-                "type": "technology"
-              },
-              {
-                "name": "Azure",
-                "type": "technology"
-              },
-              {
-                "name": "CSS",
-                "type": "technology"
-              },
-              {
-                "name": "Entity",
-                "type": "technology"
-              },
-              {
-                "name": "HTML",
-                "type": "technology"
-              },
-              {
-                "name": "JavaScript",
-                "type": "technology"
-              },
-              {
-                "name": "LinQ",
-                "type": "technology"
-              },
-              {
-                "name": "Razor",
-                "type": "technology"
-              },
-              {
-                "name": "SQLServer",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
+        {
+          "name": ".NET 8",
+          "type": "technology"
+        },
+        {
+          "name": "ASP.NET Core",
+          "type": "technology"
+        },
+        {
+          "name": "Razor Pages",
+          "type": "technology"
+        },
+        {
+          "name": "Entity Framework Core",
+          "type": "technology"
+        },
+        {
+          "name": "jQuery",
+          "type": "technology"
+        },
+        {
+          "name": "AutoMapper",
+          "type": "technology"
+        },
+        {
+          "name": "SQL Server",
+          "type": "technology"
+        }
+        {
+          "name": "HTML",
+          "type": "technology"
+        },
+        {
+          "name": "CSS",
+          "type": "technology"
+        },
+        {
+          "name": "JavaScript",
+          "type": "technology"
+        },
+        {
+          "name": "Axios",
+          "type": "technology"
+        },
+        {
+          "name": "Azure DevOps",
+          "type": "technology"
+        },
+        {
+          "name": "Git",
+          "type": "technology"
+        }
+      ]
+    }
+  ]
+}
+,
       {
         "organization": {
           "name": "Deloitte",
@@ -149,36 +167,43 @@
             "finishDate": "2024-03-01",
             "challenges": [
               {
-                "description": "Desarrollo Backend en un proyecto internacional junto a Deloitte Alemania como desarrollador para Mercedes Benz. El proyecto consistía inicialmente en la creación de una aplicación web diseñada para optimizar y automatizar las configuraciones de vehículos de stock, utilizando métodos estadísticos para generar recomendaciones de configuraciones que se alineasen con las necesidades reales de los clientes en base a indicadores económicos, demográficos o coyunturales. Posteriormente, trabajamos en la migración de esta aplicación para hacerla más escalable y sostenible, adaptándola a una estructura de microservicios.\n\n**Responsabilidades:**\n\n- Desarrollo y mantenimiento de APIs para la comunicación eficiente entre diferentes componentes del sistema.\n- Pruebas unitarias y alguna de integración.\n- Contribuir a la resolución de bugs y mejoras funcionales.\n- Refactorizar para mejorar la calidad del código y facilitar el mantenimiento a largo plazo.\n\n**Estructura de las soluciones** \nHemos utilizado el patrón de diseño hexagonal, separando y estructurando las soluciones en diferentes capas como Api, Domain o Infraestructure.\n\n**Tecnologías y herramientas utilizadas:**\n\n- **Entorno de Desarrollo**: Visual Studio 2022.\n- **Lenguajes de Programación:** Principalmente C# y SQL Server.\n- **Framework:** .NET 6.0 y alguna vez .NET 4.7.2 o NET 8.\n- **Pruebas:** Xunit o Junit.\n- **Persistencia de Datos:** Entity Framework junto con LINQ, específicamente en Database First.\n- **Gestión de Versiones:** Utilizamos Git para el control de versiones, gestionado a través de Azure DevOps.\n- **Gestión de Dependencias y Paquetes:** NuGet para la administración eficiente de paquetes, incorporando bibliotecas externas y aprovechando el principio de inyección de dependencias\n- **Azure Services utilizados:**\n    - **Azure DevOps:** Para la gestión integral del proyecto.\n    - **Máquinas Virtuales de Azure**: Ocasionalmente trabajamos en entornos de máquinas virtuales en Azure para ciertas tareas.\n    - **Storage Account**: Para el almacenamiento de datos y archivos.\n    - **Azure Key Vault**: Para la gestión segura de secretos y claves.\n    - **Blob Service**: Para necesidades específicas de datos no estructurados.\n    - **Azure Queue Storage:** Para ejecutar workers en base a mensajes en cola.\n    - **WebJobs en Azure:** Para ejecutar workers, también, que gestionaban la ingestión de datos o diferentes procesos.\n\n**Metodología de trabajo:** Agile, realizando Sprints cada 3 semanas implementando además integración y despliegue continuo."
+"description": "Developed and maintained web applications for Mercedes Benz in collaboration with Deloitte Germany. The primary focus of the project was the migration of an existing monolithic application to a microservices architecture, improving scalability, maintainability, and performance. This involved refactoring legacy systems and creating new APIs to ensure seamless communication between the new services.\n\n**Responsibilities:**\n\n- Developed and maintained REST APIs to enable efficient communication between different system components, facilitating the migration to a microservices architecture.\n- Conducted unit tests (xUnit) and integration tests to ensure code quality and functionality in critical areas of the system.\n- Actively contributed to bug fixing and the implementation of functional improvements to enhance system performance and reliability.\n- Refactored legacy code and new modules to improve code quality, enhance maintainability, and align with modern coding standards and best practices, including SOLID principles.
+
+                
+                \n\n**Technologies and tools used:**\n\n- .NET 6, .NET 8\n- C#, SQL Server\n- Entity Framework, LINQ\n- Azure services (Azure DevOps, Azure Queue Storage, WebJobs, Blob Storage)\n- Git for version control\n- Agile methodology with 3-week sprints"
               }
             ],
             "competences": [
               {
-                "name": ".NET",
+                "name": "C#".
                 "type": "technology"
               },
               {
-                "name": ".Net Core",
+                "name": ".NET 6",
                 "type": "technology"
               },
               {
-                "name": "Azure",
+                "name": ".NET 4.7.2",
                 "type": "technology"
               },
               {
-                "name": "C#",
+                "name": "Microservices",
                 "type": "technology"
               },
               {
-                "name": "Entity",
+                "name": "Azure Services (DevOps, Queue Storage, WebJobs, Blob Storage)",
                 "type": "technology"
               },
               {
-                "name": "Git",
+                "name": "SQL Server",
                 "type": "technology"
               },
               {
-                "name": "JUnit",
+                "name": "jUnit",
+                "type": "technology"
+              },
+              {
+                "name": "Entity Framework Core",
                 "type": "technology"
               },
               {
@@ -186,15 +211,11 @@
                 "type": "technology"
               },
               {
-                "name": "SQLServer",
+                "name": "Git",
                 "type": "technology"
               },
               {
-                "name": "Visual Studio",
-                "type": "technology"
-              },
-              {
-                "name": "WebApi",
+                "name": "Agile",
                 "type": "technology"
               }
             ]
@@ -203,11 +224,7 @@
       },
       {
         "organization": {
-          "name": "Cuonda Podcast",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/77a24508-a9b6-4132-a445-802333f60f80_cuodnda.jpg",
-            "alt": "cuodnda.jpg"
-          }
+          "name": "Cuonda Podcast"
         },
         "roles": [
           {
@@ -216,7 +233,7 @@
             "finishDate": "2022-05-31",
             "challenges": [
               {
-                "description": "Producción, escritura, grabación y edición de un podcast para la plataforma «Cuonda» en el que repaso a diario lo que ocurre en la industria de los videojuegos a través de capítulos breves y dinámicos. Sintetizo toda la información que se publica día a día sobre este sector para que el oyente pueda estar al tanto de lo que ocurre en menos de 10 minutos."
+                "description": "Produced, wrote, recorded, and edited a daily podcast summarizing the latest news in the video game industry. Episodes were concise, providing listeners with updates in under 10 minutes."
               }
             ]
           }
@@ -224,62 +241,16 @@
       },
       {
         "organization": {
-          "name": "Lúmina Energía",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/56fe5cf0-7da9-42cf-9638-2fb73286e2e3_lumi.png",
-            "alt": "lumi.png"
-          }
+          "name": "Lúmina Energía"
         },
         "roles": [
           {
-            "name": "Administrativo contable",
+            "name": "Administrative Accountant",
             "startDate": "2021-01-01",
             "finishDate": "2021-08-31",
             "challenges": [
               {
-                "description": "- Elaboración del Presupuesto de Tesorería y de Ingresos y Gastos para el año 2021.\n- Conciliación bancaria.\n- Emisión y control de facturas.\n- Control y gestión del archivo contable.\n- Contabilización y gestión de remesas.\n- Gestión del pago a proveedores."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Comvive",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/853b4e1b-e2b7-4731-9f31-c1eedb30f72c_comvive.png",
-            "alt": "comvive.png"
-          }
-        },
-        "roles": [
-          {
-            "name": "Administrador de sistemas",
-            "startDate": "2016-01-01",
-            "finishDate": "2017-06-30",
-            "challenges": [
-              {
-                "description": "Mis tareas se dividían entre operación, gestión y mantenimiento de aplicaciones web y servidores; resolución de incidencias y asistencia telefónica."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Atlantic International Technology, S.L.",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/297970f8-9d79-45b5-b0a2-67aa2cfe5dda_microsoftteams-image.png",
-            "alt": "MicrosoftTeams-image-1.png"
-          }
-        },
-        "roles": [
-          {
-            "name": "Empleado en prácticas",
-            "startDate": "2015-03-01",
-            "finishDate": "2015-06-30",
-            "challenges": [
-              {
-                "description": "Estas prácticas fueron complementarias a la formación de Técnico Superior en Desarrollo de Aplicaciones Web, por un total de 370 horas."
+                "description": "- Managed cash flow, income, and expense budgets.\n- Reconciliation and management of invoices and supplier payments."
               }
             ]
           }
@@ -309,7 +280,7 @@
       },
       {
         "skill": {
-          "name": ".Net Core",
+          "name": ".NET Core",
           "type": "technology"
         }
       },
@@ -339,13 +310,7 @@
       },
       {
         "skill": {
-          "name": "JUnit",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "SQLServer",
+          "name": "SQL Server",
           "type": "technology"
         }
       }
@@ -369,9 +334,26 @@
         ]
       },
       {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Power Platform App Maker Associate",
+        "startDate": "2023-02-01",
+        "institution": {
+          "name": "Microsoft",
+          "URL": "https://www.credly.com/badges/e7a778b5-0e88-44e2-b6d8-70a88144519f"
+        },
+        "finishDate": "2025-02-01",
+        "linkedCompetences": [
+          {
+            "name": "Azure",
+            "type": "technology"
+          }
+        ]
+      },
+      {
         "studyType": "officialDegree",
         "degreeAchieved": true,
-        "name": "Desarrollo de Aplicaciones Web",
+        "name": "Web Application Development",
         "startDate": "2013-09-01",
         "institution": {
           "name": "IES Hermanos Machado"
@@ -403,43 +385,6 @@
             "type": "technology"
           }
         ]
-      },
-      {
-        "studyType": "certification",
-        "degreeAchieved": true,
-        "name": "Power Platform App Maker Associate",
-        "startDate": "2023-02-01",
-        "institution": {
-          "name": "Microsoft",
-          "URL": "https://www.credly.com/badges/e7a778b5-0e88-44e2-b6d8-70a88144519f"
-        },
-        "finishDate": "2025-02-01",
-        "linkedCompetences": [
-          {
-            "name": "Azure",
-            "type": "technology"
-          }
-        ]
-      }
-    ],
-    "softSkills": [
-      {
-        "skill": {
-          "name": "Continuous learning",
-          "type": "practice"
-        }
-      },
-      {
-        "skill": {
-          "name": "Emotional intelligence",
-          "type": "practice"
-        }
-      },
-      {
-        "skill": {
-          "name": "Team player",
-          "type": "practice"
-        }
       }
     ]
   },
@@ -454,6 +399,9 @@
           "URL": "https://twitter.com/NachoCerrato",
           "type": "twitter"
         }
+      ],
+      "contactMails": [
+        "igncerrui@gmail.com"
       ]
     },
     "preferences": {
@@ -527,7 +475,7 @@
   "manfredSpecificData": {
     "mainStackTechs": [
       {
-        "name": ".Net Core",
+        "name": ".NET Core",
         "type": "technology"
       },
       {
@@ -543,12 +491,12 @@
         "type": "technology"
       },
       {
-        "name": "SQLServer",
+        "name": "SQL Server",
         "type": "technology"
       }
     ],
-    "desiredJobDescription": "Mi trabajo soñado actualmente es uno que me permita crecer como desarrollador por encima de todo lo demás. Estoy en un punto en el que debo priorizar proyectos interesantes que me aporten experiencia y conocimiento, y que de verdad se tengan en cuenta las buenas prácticas. Además valoro muchísimo que el ambiente laboral sea sano, que propicie el aprendizaje colectivo y el compañerismo.\n",
-    "goodPractices": "Tuve una enorme suerte con el proyecto en el que me he estrené como desarrollador. Me permitió ir familiarizándome y siguiendo buenas prácticas como por ejemplo:\n\n+ Arquitectura en capas\n+ Desarrollo y mantenimiento de APIs documentándolas\n+ Pruebas unitarias y de integración\n+ Buenas prácticas en el control de versiones con Git\n+ Metodologías ágiles y CI/CD\n\nPor otro lado, trato siempre de escribir el código de la forma más limpia y acorde a los principios SOLID que conozco e intento, siempre que puedo, refactorizar tanto mi código como el de compañeros con menos experiencia para dotar a las soluciones de mayor robustez y sostenibilidad. \n\nIndependientemente de esto, trato de seguir aprendiendo y formándome como puedo en relación a las buenas prácticas de desarrollo. Ya me he bebido varios cursos al respecto y lo último ha sido el famoso -y genial- \"Clean Code\" del tío Bob, el cuál he tratado de ir poniendo en práctica en mi día a día desde que empecé la primera página.",
+    "desiredJobDescription": "My dream job is one that allows me to grow as a developer, work with interesting projects, and apply best practices in a collaborative and team-oriented environment. I seek a role where continuous learning and quality are prioritized.",
+    "goodPractices": "I have consistently applied good practices throughout my career, including Clean Architecture, SOLID principles, and CI/CD methodologies. I am committed to writing clean and maintainable code while continuously improving my skills by studying resources like Clean Code by Uncle Bob.",
     "bookmarks": [
       {
         "name": "ABC: Always Be Coding"
