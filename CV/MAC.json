@@ -140,6 +140,14 @@
                 "type": "technology"
               },
               {
+                "name": "MVC",
+                "type": "technology"
+              },
+              {
+                "name": "Razor",
+                "type": "technology"
+              },
+              {
                 "name": "jQuery",
                 "type": "technology"
               }
