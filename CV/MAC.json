@@ -86,7 +86,8 @@
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/0f2f0cfd-417b-411a-8a4d-2a1dc09abe4a_logo.jpg",
             "alt": "logo.jpg"
-          }
+          },
+          "URL": "https://eqtic.net/"
         },
         "roles": [
           {
@@ -98,6 +99,10 @@
               }
             ],
             "competences": [
+              {
+                "name": ".Net Core",
+                "type": "technology"
+              },
               {
                 "name": "Axios",
                 "type": "technology"
@@ -115,6 +120,10 @@
                 "type": "technology"
               },
               {
+                "name": "Entity",
+                "type": "technology"
+              },
+              {
                 "name": "Git",
                 "type": "technology"
               },
@@ -124,6 +133,10 @@
               },
               {
                 "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "LinQ",
                 "type": "technology"
               },
               {
