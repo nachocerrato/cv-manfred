@@ -288,12 +288,6 @@
     "hardSkills": [
       {
         "skill": {
-          "name": ".NET",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": ".Net Core",
           "type": "technology"
         }
@@ -313,12 +307,6 @@
       {
         "skill": {
           "name": "C#",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Git",
           "type": "technology"
         }
       },
