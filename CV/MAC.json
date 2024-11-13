@@ -300,13 +300,13 @@
       },
       {
         "skill": {
-          "name": "Azure",
+          "name": "C#",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "C#",
+          "name": "MVC",
           "type": "technology"
         }
       },
@@ -482,11 +482,11 @@
         "type": "technology"
       },
       {
-        "name": "Azure",
+        "name": "C#",
         "type": "technology"
       },
       {
-        "name": "C#",
+        "name": "MVC",
         "type": "technology"
       },
       {
