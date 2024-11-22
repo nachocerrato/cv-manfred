@@ -388,6 +388,14 @@
           }
         ]
       }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Inteligencia emocional",
+          "type": "practice"
+        }
+      }
     ]
   },
   "careerPreferences": {
