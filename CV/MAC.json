@@ -319,6 +319,22 @@
     ],
     "studies": [
       {
+        "studyType": "unaccredited",
+        "degreeAchieved": false,
+        "name": "Angular - The Complete Guide (2024 Edition)",
+        "startDate": "1994-10-01",
+        "institution": {
+          "name": "Udemy",
+          "description": "- Learn modern Angular, including standalone components & signals from the ground up & in great detail!\n- Learn how to send HTTP requests, implement routing, authenticate users or handle complex forms - and much more!\n- Develop modern, complex, responsive and scalable web applications with Angular\n- Fully understand the architecture behind an Angular application and how to use it\n- Learn TypeScript, a modern JavaScript superset, along the way\n- Create single-page or fullstack applications with one of the most modern JavaScript frameworks out there\n- Use the gained, deep understanding of the Angular fundamentals to quickly establish yourself as a frontend developer"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Angular Universal",
+            "type": "technology"
+          }
+        ]
+      },
+      {
         "studyType": "certification",
         "degreeAchieved": true,
         "name": "Azure Developer Associate",
