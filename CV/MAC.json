@@ -409,6 +409,12 @@
     "softSkills": [
       {
         "skill": {
+          "name": "Continuous learning",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
           "name": "Emotional intelligence",
           "type": "practice"
         }
