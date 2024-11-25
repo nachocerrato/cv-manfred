@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
-    "language": "ES",
+    "language": "EN",
     "MACVersion": "0.5"
   },
   "aboutMe": {
@@ -325,7 +325,8 @@
         "startDate": "1994-10-01",
         "institution": {
           "name": "Udemy",
-          "description": "- Learn modern Angular, including standalone components & signals from the ground up & in great detail!\n- Learn how to send HTTP requests, implement routing, authenticate users or handle complex forms - and much more!\n- Develop modern, complex, responsive and scalable web applications with Angular\n- Fully understand the architecture behind an Angular application and how to use it\n- Learn TypeScript, a modern JavaScript superset, along the way\n- Create single-page or fullstack applications with one of the most modern JavaScript frameworks out there\n- Use the gained, deep understanding of the Angular fundamentals to quickly establish yourself as a frontend developer"
+          "description": "- Learn modern Angular, including standalone components & signals from the ground up & in great detail!\n- Learn how to send HTTP requests, implement routing, authenticate users or handle complex forms - and much more!\n- Develop modern, complex, responsive and scalable web applications with Angular\n- Fully understand the architecture behind an Angular application and how to use it\n- Learn TypeScript, a modern JavaScript superset, along the way\n- Create single-page or fullstack applications with one of the most modern JavaScript frameworks out there\n- Use the gained, deep understanding of the Angular fundamentals to quickly establish yourself as a frontend developer",
+          "URL": "https://www.udemy.com/course/the-complete-guide-to-angular-2/"
         },
         "linkedCompetences": [
           {
@@ -408,19 +409,19 @@
     "softSkills": [
       {
         "skill": {
-          "name": "Aprendizaje Continuo",
+          "name": "Continuous learning",
           "type": "practice"
         }
       },
       {
         "skill": {
-          "name": "Inteligencia emocional",
+          "name": "Emotional intelligence",
           "type": "practice"
         }
       },
       {
         "skill": {
-          "name": "Trabajo en equipo",
+          "name": "Team player",
           "type": "practice"
         }
       }
