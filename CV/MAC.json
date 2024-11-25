@@ -405,6 +405,14 @@
           }
         ]
       }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Trabajo en equipo",
+          "type": "practice"
+        }
+      }
     ]
   },
   "careerPreferences": {
