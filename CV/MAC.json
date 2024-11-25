@@ -409,12 +409,6 @@
     "softSkills": [
       {
         "skill": {
-          "name": "Atención al detalle",
-          "type": "practice"
-        }
-      },
-      {
-        "skill": {
           "name": "Inteligencia emocional",
           "type": "practice"
         }
