@@ -9,7 +9,7 @@
       "name": "Nacho",
       "surnames": "Cerrato",
       "title": ".NET Developer",
-      "description": ".NET Developer with experience in both national and international projects, specialized in modern application architecture using .NET 8, Clean Architecture, and Domain-Driven Design (DDD). Passionate about creating scalable and sustainable solutions, striving to improve every day and learn as much as possible from my colleagues. Competent in C#, .NET Core, Entity Framework, and Azure technologies. I prefer agile environments focused on clean code, SOLID principles, and CI/CD pipelines.",
+      "description": "Desarrollador .NET con experiencia en proyectos tanto nacionales como internacionales, especializado en arquitectura moderna de aplicaciones usando .NET 8, Clean Architecture y Domain-Driven Design (DDD). Apasionado por crear soluciones escalables y sostenibles, tratando de mejorar cada día y aprender tanto como pueda de mis compañeros. Competencias en C#, .NET Core, Entity Framework y tecnologías de Azure. Prefiero entornos ágiles, enfocados en código limpio, principios SOLID y pipelines CI/CD.",
       "avatar": {
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/02/07/f6091fef-b9f9-4632-8eb0-d0e27de0123e_1636995577030.jpg",
         "alt": "1636995577030.jpg"
@@ -95,7 +95,7 @@
             "startDate": "2024-03-01",
             "challenges": [
               {
-                "description": "I am currently working on several projects with different versions of .NET (mainly .NET 8), using Azure DevOps as a management platform. My main objective is to modernize legacy systems. In a key project, I am developing a new solution in .NET 8 to replace an old application in ASP.NET Web Forms. The project started from scratch, employing Onion Architecture and Razor Pages to create a scalable and maintainable system, following Clean Architecture principles and SOLID design.\n\n**Responsibilities**\n\n- Development of new modules, maintaining a clear separation of concerns and placing business logic in the domain layer with dependency injection.\n- Use of the Specification pattern to encapsulate business rules in data queries, improving maintainability and reducing code duplication.\n- Integration of Entity Framework Core with a Code-First approach, configuring database relationships and schemas with Fluent API.\n- Creation and modification of views and pages with HTML, CSS, and JavaScript, working with ViewModels and integrating them with controllers using Axios to manage data flow and ensure correct rendering on the front end."
+                "description": "Actualmente trabajo en varios proyectos con distintas versiones de .NET (principalmente .NET 8), usando Azure DevOps como plataforma de gestión. Mi principal objetivo es modernizar sistemas legados. En un proyecto clave, desarrollo una nueva solución en .NET 8 para reemplazar una aplicación antigua en ASP.NET Web Forms. El proyecto comenzó desde cero, empleando Onion Architecture y Razor Pages para crear un sistema escalable y mantenible, siguiendo principios de Clean Architecture y diseño SOLID.\n\n**Responsabilidades**\n\n- Desarrollo de módulos nuevos, manteniendo una separación clara de responsabilidades y ubicando la lógica de negocio en la capa de dominio con inyección de dependencias.\n- Uso del patrón Specification para encapsular reglas de negocio en las consultas de datos, mejorando la mantenibilidad y reduciendo duplicación de código.\n- Integración de Entity Framework Core con un enfoque Code-First, configurando relaciones y esquemas de base de datos con Fluent API.\n- Creación y modificación de vistas y páginas con HTML, CSS y JavaScript, trabajando con ViewModels e integrándolos con controladores mediante Axios para gestionar el flujo de datos y asegurar el renderizado correcto en el front-end."
               }
             ],
             "competences": [
@@ -171,7 +171,7 @@
             "finishDate": "2024-03-01",
             "challenges": [
               {
-                "description": "Development and maintenance of web applications for Mercedes Benz in collaboration with Deloitte Germany. The project focused on migrating a monolithic application to a microservices architecture, improving its scalability, performance, and ease of maintenance. This included refactoring legacy systems and creating new APIs to ensure efficient communication between services.\n\n**Responsibilities:**\n\n- Development and maintenance of REST APIs to facilitate communication between components and support the migration to microservices.\n- Implementation of unit tests (xUnit) and integration tests to ensure quality and functionality in key areas.\n- Bug fixing and functional improvements to optimize system performance and reliability.\n- Code refactoring to improve quality, maintainability, and align it with current standards, applying SOLID principles."
+                "description": "Desarrollo y mantenimiento de aplicaciones web para Mercedes Benz en colaboración con Deloitte Alemania. El proyecto se centró en migrar una aplicación monolítica a una arquitectura de microservicios, mejorando su escalabilidad, rendimiento y facilidad de mantenimiento. Esto incluyó refactorizar sistemas legados y crear nuevas APIs para asegurar una comunicación eficiente entre los servicios.\n\n**Responsabilidades:**\n\n- Desarrollo y mantenimiento de APIs REST para facilitar la comunicación entre componentes y apoyar la migración a microservicios.\n- Implementación de pruebas unitarias (xUnit) e integrales para garantizar la calidad y funcionalidad en áreas clave.\n- Corrección de errores y mejoras funcionales para optimizar el rendimiento y la confiabilidad del sistema.\n- Refactorización de código para mejorar su calidad, mantenibilidad y alinearlo con estándares actuales, aplicando principios SOLID."
               }
             ],
             "competences": [
@@ -247,7 +247,7 @@
             "finishDate": "2022-05-31",
             "challenges": [
               {
-                "description": "Production, scripting, recording, and editing of a daily podcast that summarized, contextualized, and commented on the latest news related to the video game industry. The episodes were brief, offering listeners the information in under 10 minutes.\n"
+                "description": "Producción, guion, grabación y edición de un podcast diario que resumía, contextualizaba y comentaba las últimas noticias relativas a la industria de los videojuegos. Los episodios eran breves, ofreciendo a los oyentes la información en menos de 10 minutos.\n"
               }
             ]
           }
@@ -264,7 +264,7 @@
             "finishDate": "2021-08-31",
             "challenges": [
               {
-                "description": "Managed cash flow, income, and expense budgets. Reconciliation and management of invoices and supplier payments."
+                "description": "Gestión del flujo de caja, los ingresos y los presupuestos de gastos. Conciliación y gestión de facturas y pagos a proveedores."
               }
             ]
           }
@@ -536,8 +536,8 @@
         "type": "technology"
       }
     ],
-    "desiredJobDescription": "My ideal job is one that allows me to grow as a developer, work on interesting projects, and apply good practices in a collaborative, team-oriented environment. I am looking for a role where continuous learning and code quality are a priority.",
-    "goodPractices": "I always try to apply development practices focused on scalability and code quality whenever possible. Some of them include:\n\n- **Clean Architecture and Onion Architecture**: I design applications with a clear layered structure, which facilitates maintenance and scalability. This approach allows for changes without affecting the business logic.\n\n- **SOLID Principles**: I apply these principles to maintain organized and easily testable code.\n\n- **Automated Testing**: I developed unit and integration tests (xUnit) to ensure correct functionality and a high standard of quality.\n\n- **Continuous Refactoring**: I participate in system modernization, applying Clean Code techniques to improve readability and align it with current standards.\n\n- **CI/CD with Azure DevOps**: I use CI/CD with Azure DevOps for version control and automated deployments, optimizing delivery times and reducing errors.",
+    "desiredJobDescription": "Mi trabajo ideal es aquel que me permita crecer como desarrollador, trabajar en proyectos interesantes y aplicar buenas prácticas en un entorno colaborativo y orientado al trabajo en equipo. Busco un rol en el que el aprendizaje continuo y la calidad del código sean una prioridad.",
+    "goodPractices": "Intento siempre que puedo aplicar prácticas de desarrollo enfocadas en la escalabilidad y calidad del código. Algunas de ellas incluyen:\n\n- **Clean Architecture y Onion Architecture**: Diseño aplicaciones con una estructura de capas clara, lo que facilita su mantenimiento y escalabilidad. Este enfoque permite realizar cambios sin afectar la lógica de negocio.\n\n- **Principios SOLID**: Aplico estos principios para mantener un código organizado y fácil de probar.\n\n- **Pruebas Automatizadas**: Desarrollé pruebas unitarias e integrales (xUnit) para asegurar el funcionamiento correcto y un alto estándar de calidad.\n\n- **Refactorización Continua**: Participo en la modernización de sistemas, aplicando técnicas de Clean Code para mejorar la legibilidad y ajustarlo a estándares actuales.\n\n- **CI/CD con Azure DevOps**: Utilizo CI/CD con Azure DevOps para control de versiones y despliegues automatizados, optimizando tiempos de entrega y reduciendo errores.",
     "bookmarks": [
       {
         "name": "ABC: Always Be Coding"
