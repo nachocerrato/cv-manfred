@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
-    "language": "EN",
+    "language": "ES",
     "MACVersion": "0.5"
   },
   "aboutMe": {
@@ -9,7 +9,7 @@
       "name": "Nacho",
       "surnames": "Cerrato",
       "title": ".NET Developer",
-      "description": "Experienced .NET developer with a background in both national and international projects, specializing in modern application architecture using .NET 8, Clean Architecture, and Domain-Driven Design (DDD). Passionate about building scalable and sustainable solutions, always striving to improve and learn as much as possible from my peers. Skilled in C#, .NET Core, Entity Framework, and Azure technologies. I thrive in agile environments focused on clean code, SOLID principles, and CI/CD pipelines.",
+      "description": "Desarrollador .NET con experiencia en proyectos tanto nacionales como internacionales, especializado en arquitectura moderna de aplicaciones usando .NET 8, Clean Architecture y Domain-Driven Design (DDD). Apasionado por crear soluciones escalables y sostenibles, tratando de mejorar cada día y aprender tanto como pueda de mis compañeros. Competencias en C#, .NET Core, Entity Framework y tecnologías de Azure. Prefiero entornos ágiles, enfocados en código limpio, principios SOLID y pipelines CI/CD.",
       "avatar": {
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/02/07/f6091fef-b9f9-4632-8eb0-d0e27de0123e_1636995577030.jpg",
         "alt": "1636995577030.jpg"
@@ -73,326 +73,6 @@
         "URL": "https://letterboxd.com/nachocerrato/"
       },
       {
-        "type": "other",
-        "URL": "https://www.goodreads.com/user/show/36915551-nacho-cerrato"
-      }
-    ]
-  },
-  "experience": {
-    "jobs": [
-      {
-        "organization": {
-          "name": "Eqtic",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/0f2f0cfd-417b-411a-8a4d-2a1dc09abe4a_logo.jpg",
-            "alt": "logo.jpg"
-          },
-          "URL": "https://eqtic.net/"
-        },
-        "roles": [
-          {
-            "name": "Full Stack Developer",
-            "startDate": "2024-03-01",
-            "challenges": [
-              {
-                "description": "# Experience in .NET Projects\n\nI currently work on several projects using different versions of .NET, primarily .NET 8, and rely on Azure DevOps as my management platform. My main focus is on modernizing legacy systems. In one of the most significant projects, I am developing a solution from scratch in .NET 8 to replace an old application built with ASP.NET Web Forms.\n\nThis new system combines Onion Architecture, Clean Architecture principles, and SOLID design with a focus on Domain-Driven Design (DDD). DDD enables me to model business logic in a clear, domain-centric way, ensuring the domain layer is well-structured and easily maintainable. Additionally, I implement the Model-View-Controller (MVC) pattern to manage the presentation layer, ensuring a clear separation between business logic, user interaction, and data presentation.\n\n**Responsibilities:**\n\n- Designing and developing new modules with a clear separation of responsibilities, encapsulating business logic in the domain layer following DDD principles and utilizing dependency injection for greater flexibility.\n- Implementing the Specification pattern to encapsulate business rules in data queries, improving maintainability and avoiding code duplication.\n- Configuring and integrating Entity Framework Core with a Code-First approach, defining database relationships and schemas using Fluent API.\n- Designing and updating views and pages using HTML, CSS, and JavaScript, managing the data flow between the presentation layer and business logic through MVC and tools like Axios.\n"
-              }
-            ],
-            "competences": [
-              {
-                "name": ".Net Core",
-                "type": "technology"
-              },
-              {
-                "name": "Axios",
-                "type": "technology"
-              },
-              {
-                "name": "Azure DevOps",
-                "type": "technology"
-              },
-              {
-                "name": "C#",
-                "type": "technology"
-              },
-              {
-                "name": "CSS",
-                "type": "technology"
-              },
-              {
-                "name": "Entity",
-                "type": "technology"
-              },
-              {
-                "name": "Git",
-                "type": "technology"
-              },
-              {
-                "name": "HTML",
-                "type": "technology"
-              },
-              {
-                "name": "JavaScript",
-                "type": "technology"
-              },
-              {
-                "name": "LinQ",
-                "type": "technology"
-              },
-              {
-                "name": "MVC",
-                "type": "technology"
-              },
-              {
-                "name": "Razor",
-                "type": "technology"
-              },
-              {
-                "name": "jQuery",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Deloitte",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/49c7be0c-c940-4bc1-b5a7-f63c9c699952_deloit.jpg",
-            "alt": "deloit.jpg"
-          },
-          "URL": "https://www.deloitte.com/de/de.html"
-        },
-        "roles": [
-          {
-            "name": "Microsoft .NET & Azure Developer",
-            "startDate": "2022-02-01",
-            "finishDate": "2024-03-01",
-            "challenges": [
-              {
-                "description": "Development and maintenance of web applications for Mercedes Benz in collaboration with Deloitte Germany. The project focused on migrating a monolithic application to a microservices architecture, enhancing scalability, performance, and maintainability. This included refactoring legacy systems and creating new APIs to ensure efficient communication between services.\n\n**Responsibilities:**\n\n- Developed and maintained REST APIs to facilitate communication between components and support the migration to microservices.\n- Implemented unit (xUnit) and integration tests to ensure quality and functionality in key areas.\n- Debugged and enhanced system features to optimize performance and reliability.\n- Refactored code to improve its quality, maintainability, and align it with modern standards by applying SOLID principles."
-              }
-            ],
-            "competences": [
-              {
-                "name": ".Net Core",
-                "type": "technology"
-              },
-              {
-                "name": "API",
-                "type": "technology"
-              },
-              {
-                "name": "Azure",
-                "type": "technology"
-              },
-              {
-                "name": "Azure DevOps",
-                "type": "technology"
-              },
-              {
-                "name": "Azure Functions",
-                "type": "technology"
-              },
-              {
-                "name": "C#",
-                "type": "technology"
-              },
-              {
-                "name": "Entity",
-                "type": "technology"
-              },
-              {
-                "name": "Git",
-                "type": "technology"
-              },
-              {
-                "name": "JUnit",
-                "type": "technology"
-              },
-              {
-                "name": "LinQ",
-                "type": "technology"
-              },
-              {
-                "name": "REST",
-                "type": "technology"
-              },
-              {
-                "name": "SQLServer",
-                "type": "technology"
-              },
-              {
-                "name": "WebApi",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Cuonda Podcast",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/10/20/8e9bd2ee-1e1b-493f-a172-9a65f3495958_ucuhj_s2_400x400.jpg",
-            "alt": "UcuHJ_s2_400x400.jpg"
-          },
-          "URL": "https://cuonda.com/codec"
-        },
-        "roles": [
-          {
-            "name": "Podcaster",
-            "startDate": "2021-08-01",
-            "finishDate": "2022-05-31",
-            "challenges": [
-              {
-                "description": "Production, scriptwriting, recording, and editing of a daily podcast summarizing, contextualizing, and commenting on the latest news in the video game industry. Episodes were concise, delivering information to listeners in under 10 minutes."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Lúmina Energía"
-        },
-        "roles": [
-          {
-            "name": "Administrative Accountant",
-            "startDate": "2021-01-01",
-            "finishDate": "2021-08-31",
-            "challenges": [
-              {
-                "description": "Management of cash flow, revenue, and expense budgets. Reconciliation and handling of invoices and payments to suppliers."
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "knowledge": {
-    "languages": [
-      {
-        "name": "EN",
-        "fullName": "Inglés",
-        "level": "Professional working proficiency"
-      },
-      {
-        "name": "ES",
-        "fullName": "Español",
-        "level": "Native or bilingual proficiency"
-      }
-    ],
-    "hardSkills": [
-      {
-        "skill": {
-          "name": ".Net Core",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "API",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "C#",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "MVC",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "SQLServer",
-          "type": "technology"
-        }
-      }
-    ],
-    "studies": [
-      {
-        "studyType": "unaccredited",
-        "degreeAchieved": false,
-        "name": "Angular - The Complete Guide (2024 Edition)",
-        "startDate": "2024-11-01",
-        "institution": {
-          "name": "Udemy",
-          "description": "- Learn modern Angular, including standalone components & signals from the ground up & in great detail!\n- Learn how to send HTTP requests, implement routing, authenticate users or handle complex forms - and much more!\n- Develop modern, complex, responsive and scalable web applications with Angular\n- Fully understand the architecture behind an Angular application and how to use it\n- Learn TypeScript, a modern JavaScript superset, along the way\n- Create single-page or fullstack applications with one of the most modern JavaScript frameworks out there\n- Use the gained, deep understanding of the Angular fundamentals to quickly establish yourself as a frontend developer",
-          "URL": "https://www.udemy.com/course/the-complete-guide-to-angular-2/"
-        },
-        "linkedCompetences": [
-          {
-            "name": "Angular Universal",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "studyType": "certification",
-        "degreeAchieved": true,
-        "name": "Azure Developer Associate",
-        "startDate": "2023-03-01",
-        "institution": {
-          "name": "Microsoft",
-          "URL": "https://www.credly.com/badges/44b2cb60-e5a5-443d-9237-0068c7707981"
-        },
-        "finishDate": "2025-03-01",
-        "linkedCompetences": [
-          {
-            "name": "Azure",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "studyType": "certification",
-        "degreeAchieved": true,
-        "name": "Power Platform App Maker Associate",
-        "startDate": "2023-02-01",
-        "institution": {
-          "name": "Microsoft",
-          "URL": "https://www.credly.com/badges/e7a778b5-0e88-44e2-b6d8-70a88144519f"
-        },
-        "finishDate": "2025-02-01",
-        "linkedCompetences": [
-          {
-            "name": "Azure",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "studyType": "officialDegree",
-        "degreeAchieved": true,
-        "name": "Web Application Development",
-        "startDate": "2013-09-01",
-        "institution": {
-          "name": "IES Hermanos Machado"
-        },
-        "finishDate": "2015-07-01",
-        "linkedCompetences": [
-          {
-            "name": "C",
-            "type": "technology"
-          },
-          {
-            "name": "CSS",
-            "type": "technology"
-          },
-          {
-            "name": "Java",
-            "type": "technology"
-          },
-          {
-            "name": "JavaScript",
             "type": "technology"
           },
           {
@@ -409,19 +89,19 @@
     "softSkills": [
       {
         "skill": {
-          "name": "Continuous learning",
+          "name": "Aprendizaje Continuo",
           "type": "practice"
         }
       },
       {
         "skill": {
-          "name": "Emotional intelligence",
+          "name": "Inteligencia emocional",
           "type": "practice"
         }
       },
       {
         "skill": {
-          "name": "Team player",
+          "name": "Trabajo en equipo",
           "type": "practice"
         }
       }
@@ -536,8 +216,8 @@
         "type": "technology"
       }
     ],
-    "desiredJobDescription": "My ideal job is one that allows me to grow as a developer, work on exciting projects, and apply best practices in a collaborative and team-oriented environment. I am looking for a role where continuous learning and code quality are top priorities.",
-    "goodPractices": "In my daily work, I strive to apply practices that prioritize scalability and code quality. For example, I use architectures like Clean Architecture and Onion Architecture, which help me organize code into well-defined layers, making changes easier to implement without compromising business logic.\n\nI also rely on SOLID principles to ensure a more structured design and facilitate software testing and evolution. I am a strong advocate for automated testing (both unit and integration tests), as they ensure everything works as it should and maintain a high standard of quality.\n\nAnother key aspect of my work is continuous refactoring. I am always looking for opportunities to modernize systems, apply Clean Code techniques, and improve code readability, adapting it to current needs. Additionally, I have incorporated Domain-Driven Design (DDD) into my projects to ensure that the software structure clearly reflects the business domain.\n\nFinally, I enjoy optimizing workflows using CI/CD with Azure DevOps. This allows me to automate deployments and manage version control, reducing errors and speeding up delivery times.",
+    "desiredJobDescription": "Mi trabajo ideal es aquel que me permita crecer como desarrollador, trabajar en proyectos interesantes y aplicar buenas prácticas en un entorno colaborativo y orientado al trabajo en equipo. Busco un rol en el que el aprendizaje continuo y la calidad del código sean una prioridad.",
+    "goodPractices": "En mi día a día, trato de aplicar prácticas que prioricen la escalabilidad y la calidad del código. Por ejemplo, utilizo arquitecturas como Clean Architecture y Onion Architecture, que me ayudan a organizar el código en capas bien definidas, haciendo que los cambios sean más fáciles de implementar sin comprometer la lógica del negocio.\n\nTambién me apoyo en los principios SOLID, ya que garantizan un diseño más estructurado y facilitan la prueba y evolución del software. Soy firme defensor de las pruebas automatizadas (unitarias e integrales), porque permiten asegurar que todo funcione como debe y mantienen un alto nivel de calidad.\n\nOtro punto clave en mi trabajo es la refactorización continua. Siempre estoy buscando oportunidades para modernizar sistemas, aplicar técnicas de Clean Code y mejorar la legibilidad del código, adaptándolo a las necesidades actuales. Además, he incorporado Domain-Driven Design (DDD) en mis proyectos para asegurar que la estructura del software refleje de forma clara el dominio del negocio.\n\nPor último, me encanta optimizar el flujo de trabajo utilizando CI/CD con Azure DevOps. Esto me permite automatizar despliegues y manejar el control de versiones, lo que reduce errores y agiliza los tiempos de entrega.",
     "bookmarks": [
       {
         "name": "ABC: Always Be Coding"
