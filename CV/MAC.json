@@ -9,7 +9,7 @@
       "name": "Nacho",
       "surnames": "Cerrato",
       "title": ".NET Developer",
-"description": "Experienced .NET developer with a background in both national and international projects, specializing in modern application architecture using .NET 8, Clean Architecture, and Domain-Driven Design (DDD). Passionate about building scalable and sustainable solutions, always striving to improve and learn as much as possible from my peers. Skilled in C#, .NET Core, Entity Framework, and Azure technologies. I thrive in agile environments focused on clean code, SOLID principles, and CI/CD pipelines.",
+      "description": "Experienced .NET developer with a background in both national and international projects, specializing in modern application architecture using .NET 8, Clean Architecture, and Domain-Driven Design (DDD). Passionate about building scalable and sustainable solutions, always striving to improve and learn as much as possible from my peers. Skilled in C#, .NET Core, Entity Framework, and Azure technologies. I thrive in agile environments focused on clean code, SOLID principles, and CI/CD pipelines.",
       "avatar": {
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/02/07/f6091fef-b9f9-4632-8eb0-d0e27de0123e_1636995577030.jpg",
         "alt": "1636995577030.jpg"
@@ -247,7 +247,7 @@
             "finishDate": "2022-05-31",
             "challenges": [
               {
-"description": "Production, scriptwriting, recording, and editing of a daily podcast summarizing, contextualizing, and commenting on the latest news in the video game industry. Episodes were concise, delivering information to listeners in under 10 minutes."
+                "description": "Production, scriptwriting, recording, and editing of a daily podcast summarizing, contextualizing, and commenting on the latest news in the video game industry. Episodes were concise, delivering information to listeners in under 10 minutes."
               }
             ]
           }
@@ -264,7 +264,7 @@
             "finishDate": "2021-08-31",
             "challenges": [
               {
-"description": "Management of cash flow, revenue, and expense budgets. Reconciliation and handling of invoices and payments to suppliers."
+                "description": "Management of cash flow, revenue, and expense budgets. Reconciliation and handling of invoices and payments to suppliers."
               }
             ]
           }
@@ -412,18 +412,6 @@
           "name": "Continuous learning",
           "type": "practice"
         }
-      },
-      {
-        "skill": {
-          "name": "Emotional intelligence",
-          "type": "practice"
-        }
-      },
-      {
-        "skill": {
-          "name": "Team player",
-          "type": "practice"
-        }
       }
     ]
   },
@@ -536,8 +524,8 @@
         "type": "technology"
       }
     ],
-"desiredJobDescription": "My ideal job is one that allows me to grow as a developer, work on exciting projects, and apply best practices in a collaborative and team-oriented environment. I am looking for a role where continuous learning and code quality are top priorities.",
-"goodPractices": "In my daily work, I strive to apply practices that prioritize scalability and code quality. For example, I use architectures like Clean Architecture and Onion Architecture, which help me organize code into well-defined layers, making changes easier to implement without compromising business logic.\n\nI also rely on SOLID principles to ensure a more structured design and facilitate software testing and evolution. I am a strong advocate for automated testing (both unit and integration tests), as they ensure everything works as it should and maintain a high standard of quality.\n\nAnother key aspect of my work is continuous refactoring. I am always looking for opportunities to modernize systems, apply Clean Code techniques, and improve code readability, adapting it to current needs. Additionally, I have incorporated Domain-Driven Design (DDD) into my projects to ensure that the software structure clearly reflects the business domain.\n\nFinally, I enjoy optimizing workflows using CI/CD with Azure DevOps. This allows me to automate deployments and manage version control, reducing errors and speeding up delivery times.",
+    "desiredJobDescription": "My ideal job is one that allows me to grow as a developer, work on exciting projects, and apply best practices in a collaborative and team-oriented environment. I am looking for a role where continuous learning and code quality are top priorities.",
+    "goodPractices": "In my daily work, I strive to apply practices that prioritize scalability and code quality. For example, I use architectures like Clean Architecture and Onion Architecture, which help me organize code into well-defined layers, making changes easier to implement without compromising business logic.\n\nI also rely on SOLID principles to ensure a more structured design and facilitate software testing and evolution. I am a strong advocate for automated testing (both unit and integration tests), as they ensure everything works as it should and maintain a high standard of quality.\n\nAnother key aspect of my work is continuous refactoring. I am always looking for opportunities to modernize systems, apply Clean Code techniques, and improve code readability, adapting it to current needs. Additionally, I have incorporated Domain-Driven Design (DDD) into my projects to ensure that the software structure clearly reflects the business domain.\n\nFinally, I enjoy optimizing workflows using CI/CD with Azure DevOps. This allows me to automate deployments and manage version control, reducing errors and speeding up delivery times.",
     "bookmarks": [
       {
         "name": "ABC: Always Be Coding"
