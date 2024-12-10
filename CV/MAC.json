@@ -73,6 +73,326 @@
         "URL": "https://letterboxd.com/nachocerrato/"
       },
       {
+        "type": "other",
+        "URL": "https://www.goodreads.com/user/show/36915551-nacho-cerrato"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Eqtic",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/0f2f0cfd-417b-411a-8a4d-2a1dc09abe4a_logo.jpg",
+            "alt": "logo.jpg"
+          },
+          "URL": "https://eqtic.net/"
+        },
+        "roles": [
+          {
+            "name": "Full Stack Developer",
+            "startDate": "2024-03-01",
+            "challenges": [
+              {
+                "description": "# Experiencia en Proyectos .NET\n\nActualmente trabajo en varios proyectos con distintas versiones de .NET, principalmente .NET 8, y utilizo Azure DevOps como plataforma de gestión. Mi principal enfoque es la modernización de sistemas legados. En uno de los proyectos más importantes, estoy desarrollando desde cero una solución en .NET 8 para reemplazar una aplicación antigua construida en ASP.NET Web Forms.\n\nEste nuevo sistema combina Onion Architecture, principios de Clean Architecture y diseño SOLID con un enfoque en Domain-Driven Design (DDD). DDD me permite modelar la lógica de negocio de forma clara y centrada en el dominio, garantizando que la capa de dominio esté bien estructurada y sea fácilmente mantenible. A su vez, implemento el patrón Model-View-Controller (MVC) para gestionar la capa de presentación, asegurando una separación clara entre la lógica de negocio, la interacción con el usuario y la presentación de datos.\n\n**Responsabilidades:**\n\n- Diseñar y desarrollar módulos nuevos con una separación clara de responsabilidades, encapsulando la lógica de negocio en la capa de dominio según los principios de DDD y utilizando inyección de dependencias para mayor flexibilidad.\n- Implementar el patrón Specification para encapsular las reglas de negocio en consultas de datos, lo que mejora la mantenibilidad y evita la duplicación de código.\n- Configurar e integrar Entity Framework Core con un enfoque Code-First, definiendo relaciones y esquemas de bases de datos mediante Fluent API.\n- Diseñar y actualizar vistas y páginas utilizando HTML, CSS y JavaScript, gestionando el flujo de datos entre la capa de presentación y la lógica de negocio mediante MVC y herramientas como Axios.\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": ".Net Core",
+                "type": "technology"
+              },
+              {
+                "name": "Axios",
+                "type": "technology"
+              },
+              {
+                "name": "Azure DevOps",
+                "type": "technology"
+              },
+              {
+                "name": "C#",
+                "type": "technology"
+              },
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Entity",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "LinQ",
+                "type": "technology"
+              },
+              {
+                "name": "MVC",
+                "type": "technology"
+              },
+              {
+                "name": "Razor",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Deloitte",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/10/49c7be0c-c940-4bc1-b5a7-f63c9c699952_deloit.jpg",
+            "alt": "deloit.jpg"
+          },
+          "URL": "https://www.deloitte.com/de/de.html"
+        },
+        "roles": [
+          {
+            "name": "Microsoft .NET & Azure Developer",
+            "startDate": "2022-02-01",
+            "finishDate": "2024-03-01",
+            "challenges": [
+              {
+                "description": "Desarrollo y mantenimiento de aplicaciones web para Mercedes Benz en colaboración con Deloitte Alemania. El proyecto se centró en migrar una aplicación monolítica a una arquitectura de microservicios, mejorando su escalabilidad, rendimiento y facilidad de mantenimiento. Esto incluyó refactorizar sistemas legados y crear nuevas APIs para asegurar una comunicación eficiente entre los servicios.\n\n**Responsabilidades:**\n\n- Desarrollo y mantenimiento de APIs REST para facilitar la comunicación entre componentes y apoyar la migración a microservicios.\n- Implementación de pruebas unitarias (xUnit) e integrales para garantizar la calidad y funcionalidad en áreas clave.\n- Corrección de errores y mejoras funcionales para optimizar el rendimiento y la confiabilidad del sistema.\n- Refactorización de código para mejorar su calidad, mantenibilidad y alinearlo con estándares actuales, aplicando principios SOLID."
+              }
+            ],
+            "competences": [
+              {
+                "name": ".Net Core",
+                "type": "technology"
+              },
+              {
+                "name": "API",
+                "type": "technology"
+              },
+              {
+                "name": "Azure",
+                "type": "technology"
+              },
+              {
+                "name": "Azure DevOps",
+                "type": "technology"
+              },
+              {
+                "name": "Azure Functions",
+                "type": "technology"
+              },
+              {
+                "name": "C#",
+                "type": "technology"
+              },
+              {
+                "name": "Entity",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "JUnit",
+                "type": "technology"
+              },
+              {
+                "name": "LinQ",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "SQLServer",
+                "type": "technology"
+              },
+              {
+                "name": "WebApi",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Cuonda Podcast",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/10/20/8e9bd2ee-1e1b-493f-a172-9a65f3495958_ucuhj_s2_400x400.jpg",
+            "alt": "UcuHJ_s2_400x400.jpg"
+          },
+          "URL": "https://cuonda.com/codec"
+        },
+        "roles": [
+          {
+            "name": "Podcaster",
+            "startDate": "2021-08-01",
+            "finishDate": "2022-05-31",
+            "challenges": [
+              {
+                "description": "Producción, guion, grabación y edición de un podcast diario que resumía, contextualizaba y comentaba las últimas noticias relativas a la industria de los videojuegos. Los episodios eran breves, ofreciendo a los oyentes la información en menos de 10 minutos.\n"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Lúmina Energía"
+        },
+        "roles": [
+          {
+            "name": "Administrative Accountant",
+            "startDate": "2021-01-01",
+            "finishDate": "2021-08-31",
+            "challenges": [
+              {
+                "description": "Gestión del flujo de caja, los ingresos y los presupuestos de gastos. Conciliación y gestión de facturas y pagos a proveedores."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": ".Net Core",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "API",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "C#",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MVC",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQLServer",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": false,
+        "name": "Angular - The Complete Guide (2024 Edition)",
+        "startDate": "2024-11-01",
+        "institution": {
+          "name": "Udemy",
+          "description": "- Learn modern Angular, including standalone components & signals from the ground up & in great detail!\n- Learn how to send HTTP requests, implement routing, authenticate users or handle complex forms - and much more!\n- Develop modern, complex, responsive and scalable web applications with Angular\n- Fully understand the architecture behind an Angular application and how to use it\n- Learn TypeScript, a modern JavaScript superset, along the way\n- Create single-page or fullstack applications with one of the most modern JavaScript frameworks out there\n- Use the gained, deep understanding of the Angular fundamentals to quickly establish yourself as a frontend developer",
+          "URL": "https://www.udemy.com/course/the-complete-guide-to-angular-2/"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Angular Universal",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Azure Developer Associate",
+        "startDate": "2023-03-01",
+        "institution": {
+          "name": "Microsoft",
+          "URL": "https://www.credly.com/badges/44b2cb60-e5a5-443d-9237-0068c7707981"
+        },
+        "finishDate": "2025-03-01",
+        "linkedCompetences": [
+          {
+            "name": "Azure",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Power Platform App Maker Associate",
+        "startDate": "2023-02-01",
+        "institution": {
+          "name": "Microsoft",
+          "URL": "https://www.credly.com/badges/e7a778b5-0e88-44e2-b6d8-70a88144519f"
+        },
+        "finishDate": "2025-02-01",
+        "linkedCompetences": [
+          {
+            "name": "Azure",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Web Application Development",
+        "startDate": "2013-09-01",
+        "institution": {
+          "name": "IES Hermanos Machado"
+        },
+        "finishDate": "2015-07-01",
+        "linkedCompetences": [
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "Java",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
             "type": "technology"
           },
           {
