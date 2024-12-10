@@ -415,6 +415,12 @@
       },
       {
         "skill": {
+          "name": "Emotional intelligence",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
           "name": "Team player",
           "type": "practice"
         }
